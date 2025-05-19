@@ -1,0 +1,47 @@
+{
+	"version": 2,
+	"builds": [
+		{
+			"src": "**/*",
+			"use": "@vercel/static"
+		}
+	],
+	"routes": [
+		{
+			"src": "/about-us",
+			"dest": "/about-us.html"
+		},
+		{
+			"src": "/blog",
+			"dest": "/blog.html"
+		},
+		{
+			"src": "/careers",
+			"dest": "/careers.html"
+		},
+		{
+			"src": "/terms",
+			"dest": "/terms.html"
+		},
+		{
+			"src": "/privacy",
+			"dest": "/privacy.html"
+		},
+		{
+			"src": "/contact",
+			"dest": "/contact.html"
+		},
+		{
+			"src": "/cookie",
+			"dest": "/cookie.html"
+		},
+		{
+			"src": "/talk-to-us",
+			"dest": "/talk-to-us.html"
+		},
+		{
+			"src": "/(.*)",
+			"dest": "/$1"
+		}
+	]
+}

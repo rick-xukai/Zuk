@@ -1,0 +1,339 @@
+{
+  "version": 2,
+  "builds": [{
+    "src": "**/*",
+    "use": "@vercel/static"
+  }],
+  "routes": [{
+      "src": "/",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/about-us",
+      "dest": "/about-us.html"
+    },
+    {
+      "src": "/blog",
+      "dest": "/blog.html"
+    },
+    {
+      "src": "/careers",
+      "dest": "/careers.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/contact.html"
+    },
+    {
+      "src": "/privacy",
+      "dest": "/privacy.html"
+    },
+    {
+      "src": "/terms",
+      "dest": "/terms.html"
+    },
+    {
+      "src": "/talk-to-us",
+      "dest": "/talk-to-us.html"
+    },
+    {
+      "src": "/applications/ecommerce-platform",
+      "dest": "/applications/ecommerce-platform.html"
+    },
+    {
+      "src": "/applications/website-receptionist",
+      "dest": "/applications/website-receptionist.html"
+    },
+    {
+      "src": "/applications/website-receptionist/pricing",
+      "dest": "/applications/website-receptionist/pricing.html"
+    },
+    {
+      "src": "/automation/document-data-extraction",
+      "dest": "/automation/document-data-extraction.html"
+    },
+    {
+      "src": "/automation/document-generation",
+      "dest": "/automation/document-generation.html"
+    },
+    {
+      "src": "/automation/internal-chatgpt",
+      "dest": "/automation/internal-chatgpt.html"
+    },
+    {
+      "src": "/automation/product-data-enrichment",
+      "dest": "/automation/product-data-enrichment.html"
+    },
+    {
+      "src": "/automation/rfp-rfq-answering",
+      "dest": "/automation/rfp-rfq-answering.html"
+    },
+    {
+      "src": "/industry/construction",
+      "dest": "/industry/construction.html"
+    },
+    {
+      "src": "/industry/construction/document-data-extraction",
+      "dest": "/industry/construction/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/construction/document-generation",
+      "dest": "/industry/construction/document-generation.html"
+    },
+    {
+      "src": "/industry/construction/internal-chatgpt",
+      "dest": "/industry/construction/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/construction/rfp-rfq-answering",
+      "dest": "/industry/construction/rfp-rfq-answering.html"
+    },
+    {
+      "src": "/industry/construction/website-receptionist",
+      "dest": "/industry/construction/website-receptionist.html"
+    },
+    {
+      "src": "/industry/healthcare",
+      "dest": "/industry/healthcare.html"
+    },
+    {
+      "src": "/industry/healthcare/document-data-extraction",
+      "dest": "/industry/healthcare/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/healthcare/document-generation",
+      "dest": "/industry/healthcare/document-generation.html"
+    },
+    {
+      "src": "/industry/healthcare/internal-chatgpt",
+      "dest": "/industry/healthcare/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/healthcare/website-receptionist",
+      "dest": "/industry/healthcare/website-receptionist.html"
+    },
+    {
+      "src": "/industry/hospitality",
+      "dest": "/industry/hospitality.html"
+    },
+    {
+      "src": "/industry/hospitality/document-data-extraction",
+      "dest": "/industry/hospitality/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/hospitality/document-generation",
+      "dest": "/industry/hospitality/document-generation.html"
+    },
+    {
+      "src": "/industry/hospitality/ecommerce-platform",
+      "dest": "/industry/hospitality/ecommerce-platform.html"
+    },
+    {
+      "src": "/industry/hospitality/internal-chatgpt",
+      "dest": "/industry/hospitality/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/hospitality/website-receptionist",
+      "dest": "/industry/hospitality/website-receptionist.html"
+    },
+    {
+      "src": "/industry/manufacturing",
+      "dest": "/industry/manufacturing.html"
+    },
+    {
+      "src": "/industry/manufacturing/document-data-extraction",
+      "dest": "/industry/manufacturing/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/manufacturing/document-generation",
+      "dest": "/industry/manufacturing/document-generation.html"
+    },
+    {
+      "src": "/industry/manufacturing/ecommerce-platform",
+      "dest": "/industry/manufacturing/ecommerce-platform.html"
+    },
+    {
+      "src": "/industry/manufacturing/internal-chatgpt",
+      "dest": "/industry/manufacturing/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/manufacturing/product-data-enrichment",
+      "dest": "/industry/manufacturing/product-data-enrichment.html"
+    },
+    {
+      "src": "/industry/manufacturing/rfp-rfq-answering",
+      "dest": "/industry/manufacturing/rfp-rfq-answering.html"
+    },
+    {
+      "src": "/industry/manufacturing/website-receptionist",
+      "dest": "/industry/manufacturing/website-receptionist.html"
+    },
+    {
+      "src": "/industry/real-estate",
+      "dest": "/industry/real-estate.html"
+    },
+    {
+      "src": "/industry/real-estate/document-data-extraction",
+      "dest": "/industry/real-estate/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/real-estate/document-generation",
+      "dest": "/industry/real-estate/document-generation.html"
+    },
+    {
+      "src": "/industry/real-estate/ecommerce-platform",
+      "dest": "/industry/real-estate/ecommerce-platform.html"
+    },
+    {
+      "src": "/industry/real-estate/internal-chatgpt",
+      "dest": "/industry/real-estate/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/real-estate/product-data-enrichment",
+      "dest": "/industry/real-estate/product-data-enrichment.html"
+    },
+    {
+      "src": "/industry/real-estate/website-receptionist",
+      "dest": "/industry/real-estate/website-receptionist.html"
+    },
+    {
+      "src": "/industry/retail",
+      "dest": "/industry/retail.html"
+    },
+    {
+      "src": "/industry/retail/document-data-extraction",
+      "dest": "/industry/retail/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/retail/document-generation",
+      "dest": "/industry/retail/document-generation.html"
+    },
+    {
+      "src": "/industry/retail/ecommerce-platform",
+      "dest": "/industry/retail/ecommerce-platform.html"
+    },
+    {
+      "src": "/industry/retail/internal-chatgpt",
+      "dest": "/industry/retail/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/retail/product-data-enrichment",
+      "dest": "/industry/retail/product-data-enrichment.html"
+    },
+    {
+      "src": "/industry/retail/rfp-rfq-answering",
+      "dest": "/industry/retail/rfp-rfq-answering.html"
+    },
+    {
+      "src": "/industry/supply-chain",
+      "dest": "/industry/supply-chain.html"
+    },
+    {
+      "src": "/industry/supply-chain/document-data-extraction",
+      "dest": "/industry/supply-chain/document-data-extraction.html"
+    },
+    {
+      "src": "/industry/supply-chain/document-generation",
+      "dest": "/industry/supply-chain/document-generation.html"
+    },
+    {
+      "src": "/industry/supply-chain/internal-chatgpt",
+      "dest": "/industry/supply-chain/internal-chatgpt.html"
+    },
+    {
+      "src": "/industry/supply-chain/product-data-enrichment",
+      "dest": "/industry/supply-chain/product-data-enrichment.html"
+    },
+    {
+      "src": "/industry/supply-chain/rfp-rfq-answering",
+      "dest": "/industry/supply-chain/rfp-rfq-answering.html"
+    },
+    {
+      "src": "/industry/supply-chain/website-receptionist",
+      "dest": "/industry/supply-chain/website-receptionist.html"
+    },
+    {
+      "src": "/blog/ai-customer-service-ecommerce-7204",
+      "dest": "/blog/ai-customer-service-ecommerce-7204.html"
+    },
+    {
+      "src": "/blog/ai-document-data-extraction-in-healthcare-7625",
+      "dest": "/blog/ai-document-data-extraction-in-healthcare-7625.html"
+    },
+    {
+      "src": "/blog/ai-driven-ecommerce-platforms-3666",
+      "dest": "/blog/ai-driven-ecommerce-platforms-3666.html"
+    },
+    {
+      "src": "/blog/ai-hospitality-personalization-unveiled-9319",
+      "dest": "/blog/ai-hospitality-personalization-unveiled-9319.html"
+    },
+    {
+      "src": "/blog/ai-in-real-estate-document-generation-9862",
+      "dest": "/blog/ai-in-real-estate-document-generation-9862.html"
+    },
+    {
+      "src": "/blog/ai-powered-rfp-rfq-answering-manufacturing-0816",
+      "dest": "/blog/ai-powered-rfp-rfq-answering-manufacturing-0816.html"
+    },
+    {
+      "src": "/blog/ai-predicts-machine-failures-8996",
+      "dest": "/blog/ai-predicts-machine-failures-8996.html"
+    },
+    {
+      "src": "/blog/ai-real-estate-profit-boosting-secret-8838",
+      "dest": "/blog/ai-real-estate-profit-boosting-secret-8838.html"
+    },
+    {
+      "src": "/blog/ai-receptionists-transform-retail-service-2568",
+      "dest": "/blog/ai-receptionists-transform-retail-service-2568.html"
+    },
+    {
+      "src": "/blog/ai-reshapes-urban-construction-landscape-4869",
+      "dest": "/blog/ai-reshapes-urban-construction-landscape-4869.html"
+    },
+    {
+      "src": "/blog/ai-revolution-property-valuation-2272",
+      "dest": "/blog/ai-revolution-property-valuation-2272.html"
+    },
+    {
+      "src": "/blog/ai-revolutionizes-medicines-future-1521",
+      "dest": "/blog/ai-revolutionizes-medicines-future-1521.html"
+    },
+    {
+      "src": "/blog/ai-shields-global-supply-chains-7293",
+      "dest": "/blog/ai-shields-global-supply-chains-7293.html"
+    },
+    {
+      "src": "/blog/data-extraction-vision-language-models-6942",
+      "dest": "/blog/data-extraction-vision-language-models-6942.html"
+    },
+    {
+      "src": "/blog/dna-shapes-your-treatment-0194",
+      "dest": "/blog/dna-shapes-your-treatment-0194.html"
+    },
+    {
+      "src": "/blog/document-generation-manufacturing-4210",
+      "dest": "/blog/document-generation-manufacturing-4210.html"
+    },
+    {
+      "src": "/blog/virtual-fitting-rooms-reshape-retail-1243",
+      "dest": "/blog/virtual-fitting-rooms-reshape-retail-1243.html"
+    },
+    {
+      "src": "/cdn-cgi/l/email-protection",
+      "dest": "/cdn-cgi/l/email-protection.html"
+    },
+    {
+      "src": "/cookie",
+      "dest": "/cookie.html"
+    },
+    {
+      "src": "/cookie\\?opt-out=true",
+      "dest": "/cookie?opt-out=true.html"
+    },
+    {
+      "handle": "filesystem"
+    }
+  ]
+}

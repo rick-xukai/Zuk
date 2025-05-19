@@ -1,0 +1,19 @@
+/* 隐藏页脚相关元素 */
+.Footer_container__kRlyj,
+.Gutter_leftGutter__UWO6t,
+.Gutter_rightGutter__qUzUU,
+.Footer_footer__9S97q,
+footer,
+[class*="Footer_"],
+[class*="Gutter_"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  position: absolute !important;
+  overflow: hidden !important;
+  z-index: -9999 !important;
+}
+
+/* 在这里添加其他自定义样式覆盖 */ 
